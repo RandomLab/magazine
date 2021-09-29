@@ -1,2 +1,2 @@
 # magazine
-ok
+ok salut
