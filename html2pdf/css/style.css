@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 12pt;
+}
+
+@page {
+    size: A3;
+}
+
+.container {}
+
+
+/* word-break: break-all;
+	word-break: break-word;
+	hyphens: auto; */
