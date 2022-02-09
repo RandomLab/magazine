@@ -8,10 +8,40 @@ body {
 }
 
 @page {
-    size: A3;
+    size: 420mm 297mm;
 }
 
-.container {}
+#container {
+    /* width: 297mm; */
+    width: 1440px;
+    height: 2036.60px;
+}
+
+.left-page {
+    position: absolute;
+    /* left: 210mm;
+    width: 210mm;
+    height: 297mm; */
+}
+
+.right-page {
+    position: absolute;
+    /* left: 0mm;
+    width: 210mm;
+    height: 297mm; */
+}
+
+.article {
+    border: solid black;
+    position: relative;
+    float: left;
+    padding: 20px;
+    height: 678.85px;
+}
+
+.Paragraphe {
+    display: inline-block;
+}
 
 
 /* word-break: break-all;
