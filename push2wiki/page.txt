@@ -1,0 +1,23 @@
+mutation Page {
+  pages {
+    create (content:"contenuto", 
+            description:"descrizione", 
+            editor: "code", 
+            isPublished: true, 
+            isPrivate: false, 
+            locale: "fr", path:"/", 
+            tags: ["tag1", "tag2"], title:"titolo") {
+      responseResult {
+        succeeded,
+        errorCode,
+        slug,
+        message
+      },
+      page {
+        id,
+        path,
+        title
+      }
+    }
+  }
+}
